@@ -1,4 +1,4 @@
- <style>
+
     * {
       margin: 0;
       padding: 0;
@@ -239,7 +239,7 @@
     @media (max-width: 768px) {
       ul {
         flex-direction: column;
-        background: #005ecb;
+        background: #1779e9;
         position: absolute;
         top: 60px;
         right: 0;
@@ -251,4 +251,45 @@
         display: flex;
       }
     }
-  </style>
+/* ===== FOR REGISTRATION FORM ===== */
+
+form {
+  background: rgb(11, 20, 190);
+  padding: auto;
+  border-radius: aurora;
+  box-shadow:rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+form h2 {
+  margin-bottom: 20px;
+  color: #083e78;
+}
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border: radius 5px;
+}
+form button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+form button:hover {
+  background: #0056b3;
+}
+/* ===== END FOR REGISTRATION FORM ===== */
+
